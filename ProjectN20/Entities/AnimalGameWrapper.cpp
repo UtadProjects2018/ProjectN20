@@ -73,7 +73,7 @@ void AnimalGame::startGame()
                 TEntity *animal = &(*iterator);
                 iterator->m_funcs[0](animal, consoleDraw);
                 iterator->m_funcs[1](animal, consolePrint);
-                iterator++;
+                ++iterator;
             }
         }
         
